@@ -1,57 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(to bottom right, grey 70%, red);
-            background-size: cover;
-            background-position: center;
-            font-family: Arial, sans-serif;
-        }
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 20px;
-        }
-        .gallery-item {
-            margin: 10px;
-            text-align: center;
-        }
-        .gallery-item img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-        }
-        .gallery-item h3 {
-            margin: 10px 0;
-            color: white;
-        }
-    </style>
 </head>
-<body>
-    <div class="gallery">
-        <div class="gallery-item">
-            <h3>Toussaint</h3>
-            <img src="C:\Users\vladi\Desktop\web\image1.jpg" alt="Image 1">
-        </div>
-        <div class="gallery-item">
-            <h3>Geralt of Rivia</h3>
-            <img src="C:\Users\vladi\Desktop\web\image2.jpg" alt="Image 2">
-        </div>
-        <div class="gallery-item">
-            <h3>World of tell</h3>
-            <img src="C:\Users\vladi\Desktop\web\image3.jpeg" alt="Image 3">
-        </div>
-        <div class="gallery-item">
-            <h3>Skellige</h3>
-            <img src="C:\Users\vladi\Desktop\web\image4.jpg" alt="Image 4">
-        </div>
-    </div>
+<body bgcolor="gray">
+
+    <center><h1>Galerie Witcher</h1></center>
+
+    <table width="80%" border="1" cellspacing="5" cellpadding="10" align="center" bgcolor="lightgray">
+        <tr>
+            <td align="center">
+                <h3>Toussaint</h3>
+                <img src="C:\Users\vladi\Desktop\web\image1.jpg" alt="Toussaint" width="300">
+            </td>
+            <td align="center">
+                <h3>Geralt of Rivia</h3>
+                <img src="C:\Users\vladi\Desktop\web\image2.jpg" alt="Geralt of Rivia" width="300">
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <h3>World of tell</h3>
+                <img src="C:\Users\vladi\Desktop\web\image3.jpeg" alt="World of tell" width="300">
+            </td>
+            <td align="center">
+                <h3>Skellige</h3>
+                <img src="C:\Users\vladi\Desktop\web\image4.jpg" alt="Skellige" width="300">
+            </td>
+        </tr>
+    </table>
+
 </body>
 </html>
