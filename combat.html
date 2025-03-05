@@ -4,65 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Combat</title>
-    
+    <link rel="stylesheet" href="stylecombat.css">
+    <style>
+        body {
+            text-align: center;
+            color: black;
+        }
+        .combat-table {
+            margin: auto;
+            text-align: center;
+            width: 80%;
+            border-collapse: collapse;
+            background-color: lightgray;
+        }
+        .combat-table td {
+            padding: 10px;
+            border: 1px solid black;
+            color: black;
+        }
+        .large-image, .small-image {
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
 </head>
-<body bgcolor="gray">
-
-    
-    <a href="hello.html" style="position: absolute; left: 10px; top: 10px; font-size: 30px; color: black;">
+<body>
+    <a href="hello.html" class="home-link">
         <i class="fas fa-home"></i> Home
     </a>
 
-    <center>
+    <main>
         <h1>Combat Witcher</h1>
-    </center>
-
-    <center>
-        <table width="80%" border="1" cellspacing="0" cellpadding="10" bgcolor="lightgray">
-            <tr>
-                <td align="center">
-                    <p>Complexitatea luptei bazată pe o varietate de acțiuni la dispoziția jucătorului, nu pe secvențierea corectă a atacurilor</p>
-                </td>
-            </tr>
-            <tr>
-                <td align="center">
-                    <p>Un sistem Witcher Senses care aduce o nouă profunzime tactică luptei</p>
-                </td>
-            </tr>
-            <tr>
-                <td align="center">
-                    <p>Monștri, fiecare cu propria lor tradiție, punând provocări unice de vânătoare și răspunzând la schimbările din mediu</p>
-                </td>
-            </tr>
-            <tr>
-                <td align="center">
-                    <p>Un tutorial încorporat în joc, care le permite jucătorilor să se scufunde cu ușurință în lumea Witcher</p>
-                </td>
-            </tr>
-            <tr>
-                <td align="center">
-                    <p>Implica investigații și vânătoare recompensatoare prin mecanicul Witcher Senses</p>
-                </td>
-            </tr>
-            <tr>
-                <td align="center">
-                    <p>O mecanică RPG complet rescrisă, care le permite jucătorilor să vadă influența statisticilor asupra jocului</p>
-                </td>
-            </tr>
+        <table class="combat-table">
+            <tr><td>Complexitatea luptei bazată pe o varietate de acțiuni la dispoziția jucătorului, nu pe secvențierea corectă a atacurilor</td></tr>
+            <tr><td>Un sistem Witcher Senses care aduce o nouă profunzime tactică luptei</td></tr>
+            <tr><td>Monștri, fiecare cu propria lor tradiție, punând provocări unice de vânătoare și răspunzând la schimbările din mediu</td></tr>
+            <tr><td>Un tutorial încorporat în joc, care le permite jucătorilor să se scufunde cu ușurință în lumea Witcher</td></tr>
+            <tr><td>Implica investigații și vânătoare recompensatoare prin mecanicul Witcher Senses</td></tr>
+            <tr><td>O mecanică RPG complet rescrisă, care le permite jucătorilor să vadă influența statisticilor asupra jocului</td></tr>
         </table>
-    </center>
-
-    <br>
-
-    <center>
-        <img src="C:/Users/vladi/Desktop/web/combat1.jpg" alt="Fundal" width="800">
-    </center>
-
-    <br>
-
-    <center>
-        <img src="C:/Users/vladi/Desktop/web/action.jpg" alt="Imagine de jos" width="500">
-    </center>
-
+        <img src="C:/Users/vladi/Desktop/web/combat1.jpg" alt="Fundal" class="large-image">
+        <img src="C:/Users/vladi/Desktop/web/action.jpg" alt="Imagine de jos" class="small-image">
+    </main>
 </body>
 </html>
