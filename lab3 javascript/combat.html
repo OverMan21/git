@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combat</title>
+    <link rel="stylesheet" href="stylecombat.css">
+    <style>
+        body {
+            text-align: center;
+            color: black;
+            background-color: gray;
+            font-family: Arial, sans-serif;
+        }
+        .combat-table {
+            margin: auto;
+            text-align: center;
+            width: 80%;
+            border-collapse: collapse;
+            background-color: lightgray;
+        }
+        .combat-table td {
+            padding: 10px;
+            border: 1px solid black;
+            color: black;
+        }
+        .large-image, .small-image {
+            display: block;
+            margin: 20px auto;
+            width: 500px;
+            height: 300px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .large-image:hover, .small-image:hover {
+            transform: scale(1.1);
+        }
+        nav ul {
+            background-color: red;
+            padding: 10px;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        h1 {
+            margin-top: 20px;
+        }
+        hr {
+            width: 80%;
+            height: 3px;
+            background-color: red;
+            border: none;
+        }
+        p {
+            width: 80%;
+            margin: auto;
+            text-align: justify;
+        }
+        .home-link {
+            font-size: 18px;
+            color: white;
+            text-decoration: none;
+        }
+        .home-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <a href="hello.html" class="home-link">
+        <i class="fas fa-home"></i> Home
+    </a>
+
+    <main>
+        <h1>Combat Witcher</h1>
+        <table class="combat-table">
+            <tr><td>Complexitatea luptei bazată pe o varietate de acțiuni la dispoziția jucătorului, nu pe secvențierea corectă a atacurilor</td></tr>
+            <tr><td>Un sistem Witcher Senses care aduce o nouă profunzime tactică luptei</td></tr>
+            <tr><td>Monștri, fiecare cu propria lor tradiție, punând provocări unice de vânătoare și răspunzând la schimbările din mediu</td></tr>
+            <tr><td>Un tutorial încorporat în joc, care le permite jucătorilor să se scufunde cu ușurință în lumea Witcher</td></tr>
+            <tr><td>Implica investigații și vânătoare recompensatoare prin mecanicul Witcher Senses</td></tr>
+            <tr><td>O mecanică RPG complet rescrisă, care le permite jucătorilor să vadă influența statisticilor asupra jocului</td></tr>
+        </table>
+        <img src="C:/Users/vladi/Desktop/web/combat1.jpg" alt="Fundal" class="large-image" id="mainImage" onclick="changeImage()">
+        <img src="C:/Users/vladi/Desktop/web/action.jpg" alt="Imagine de jos" class="small-image">
+    </main>
+
+  
+    <script src="script3.js"></script>
+</body>
+</html>

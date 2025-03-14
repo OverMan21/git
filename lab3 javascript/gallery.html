@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="stylegallery.css">
+    <script defer src="script2.js"></script>
+</head>
+<body>
+    <a href="hello.html">
+        <button class="home-button">Home</button>
+    </a>
+    
+    <h1>Galerie Witcher</h1>
+    
+    <table class="gallery-table">
+        <tr>
+            <td>
+                <h3>Toussaint</h3>
+                <img class="gallery-image" src="C:\Users\vladi\Desktop\web\image1.jpg" data-info="Toussaint este un ținut plin de vinuri și peisaje uimitoare din lumea Witcher." alt="Toussaint">
+            </td>
+            <td>
+                <h3>Geralt of Rivia</h3>
+                <img class="gallery-image" src="C:\Users\vladi\Desktop\web\image2.jpg" data-info="Geralt din Rivia este un vânător de monștri cunoscut și eroul principal al seriei Witcher." alt="Geralt of Rivia">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>World of Tell</h3>
+                <img class="gallery-image" src="C:\Users\vladi\Desktop\web\image3.jpeg" data-info="O lume fantastică plină de aventuri, monștri și regiuni diverse." alt="World of Tell">
+            </td>
+            <td>
+                <h3>Skellige</h3>
+                <img class="gallery-image" src="C:\Users\vladi\Desktop\web\image4.jpg" data-info="Skellige este un arhipelag locuit de războinici vikingi curajoși și loiali." alt="Skellige">
+            </td>
+        </tr>
+    </table>
+
+    <!-- Fereastra pop-up pentru informații -->
+    <div id="image-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-button">&times;</span>
+            <p id="image-info"></p>
+        </div>
+    </div>
+</body>
+</html>
